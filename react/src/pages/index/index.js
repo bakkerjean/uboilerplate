@@ -46,7 +46,7 @@ class Index extends React.Component {
           </DialogActions>
         </Dialog>
         <Typography variant="h4" gutterBottom style={{ fontWeight: '500' }}>
-          mailwriter
+          uboilerplate
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
           example project
