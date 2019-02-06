@@ -22,7 +22,6 @@ const theme = createMuiTheme({
       default: 'white'
     }
   },
-
   typography: {
     useNextVariants: true,
     fontFamily: '\'Rubik\', \'sans-serif\''

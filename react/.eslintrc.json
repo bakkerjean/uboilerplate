@@ -14,16 +14,6 @@
       "pragma": "React",
       "version": "detect"
     },
-    "propWrapperFunctions": [
-      "forbidExtraProps",
-      {
-        "property": "freeze",
-        "object": "Object"
-      },
-      {
-        "property": "myFavoriteWrapper"
-      }
-    ],
     "linkComponents": [
       "Hyperlink",
       {
@@ -34,6 +24,8 @@
   },
   "parser": "babel-eslint",
   "rules": {
+    "react/prop-types": [0],
+    "react/display-name": [0],
     "semi": [2, "never", {
       "beforeStatementContinuationChars": "never"
     }],
